@@ -6,10 +6,13 @@ Another package, 'fast-equals', showed similar performance to 'fast-deep-equal'.
 
 However, I noticed that 'lodash.isEqual' performs better in certain cases, especially when there are changes in the starting positions in an array of objects. 
 
+**Below timings are in millisecs.**
+
 ![Bencmarking Results - Below timings are in millisecs](image.png)
 
 Attaching the links of other sites which shows similar results:
 
 https://socket.dev/npm/package/react-fast-compare
+
 https://github.com/planttheidea/fast-equals   
 
