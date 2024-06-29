@@ -1,0 +1,343 @@
+Equals:
+
+Size - 10:
+
+Lodash Result: true
+Lodash using performance.now -  0.40000009536743164ms
+FastDeepEqual Result: true
+FastDeepEqual using performance.now -  0.09999990463256836ms
+FastEquals Result: true
+FastEquals using performance.now -  0.19999980926513672ms
+
+Size - 100:
+
+
+Lodash Result: true
+Lodash using performance.now -  1.1000003814697266ms
+FastDeepEqual Result: true
+FastDeepEqual using performance.now -  0.2999997138977051ms
+FastEquals Result: true
+FastEquals using performance.now -  0.5ms
+
+Size - 1000
+
+Lodash Result: true
+Lodash using performance.now -  4.5ms
+FastDeepEqual Result: true
+FastDeepEqual using performance.now -  1.3999996185302734ms
+FastEquals Result: true
+FastEquals using performance.now -  1.9000000953674316ms
+
+Size - 5000
+
+Lodash Result: true
+Lodash using performance.now -  18.299999713897705ms
+FastDeepEqual Result: true
+FastDeepEqual using performance.now -  5ms
+FastEquals Result: true
+FastEquals using performance.now -  6.199999809265137ms
+
+
+
+Not equals as new data is inserted at end:
+
+
+Size - 10
+
+Lodash Result: false
+Lodash using performance.now -  0.19999980926513672ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0ms
+FastEquals Result: false
+FastEquals using performance.now -  0.2999997138977051ms
+
+
+Size - 100
+
+Lodash Result: false
+Lodash using performance.now -  0.19999980926513672ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0ms
+FastEquals Result: false
+FastEquals using performance.now -  0.09999990463256836ms
+
+Size - 1000
+
+Lodash Result: false
+Lodash using performance.now -  0.19999980926513672ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0.09999990463256836ms
+FastEquals Result: false
+FastEquals using performance.now -  0ms
+
+Size - 5000
+
+Lodash Result: false
+Lodash using performance.now -  0.20000028610229492ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0ms
+FastEquals Result: false
+FastEquals using performance.now -  0.09999990463256836ms
+
+
+Not Equal and change in data at first object:
+
+Size - 10
+
+Lodash Result: false
+Lodash using performance.now -  0.3000001907348633ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0.10000038146972656ms
+FastEquals Result: false
+FastEquals using performance.now -  0.09999990463256836ms
+
+Size - 100
+
+Lodash Result: false
+Lodash using performance.now -  0.3000001907348633ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0.40000009536743164ms
+FastEquals Result: false
+FastEquals using performance.now -  0.40000009536743164ms
+
+Size - 1000
+
+Lodash Result: false
+Lodash using performance.now -  0.2999997138977051ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  1.0999999046325684ms
+FastEquals Result: false
+FastEquals using performance.now -  2ms
+
+Size - 5000
+
+Lodash Result: false
+Lodash using performance.now -  0.39999961853027344ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  3.4000000953674316ms
+FastEquals Result: false
+FastEquals using performance.now -  3.8000001907348633ms
+
+
+Not Equal and change in data at relative starting pos
+
+Around 5 %
+
+    Size - 10
+
+Lodash Result: false
+Lodash using performance.now -  0.5ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0.19999980926513672ms
+FastEquals Result: false
+FastEquals using performance.now -  0.2999997138977051ms
+
+Size - 100
+
+Lodash Result: false
+Lodash using performance.now -  0.40000009536743164ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0.3000001907348633ms
+FastEquals Result: false
+FastEquals using performance.now -  0.3000001907348633ms
+
+Size - 1000
+
+Lodash Result: false
+Lodash using performance.now -  0.6999998092651367ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  1.1999998092651367ms
+FastEquals Result: false
+FastEquals using performance.now -  1.0999999046325684ms
+
+Size - 5000
+
+Lodash Result: false
+Lodash using performance.now -  2.5ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  3.1999998092651367ms
+FastEquals Result: false
+FastEquals using performance.now -  3.200000286102295ms
+
+
+
+    (around 20 %)
+
+Size - 10
+
+Lodash Result: false
+Lodash using performance.now -  0.39999961853027344ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0.09999990463256836ms
+FastEquals Result: false
+FastEquals using performance.now -  0.09999990463256836ms
+
+Size - 100
+
+Lodash Result: false
+Lodash using performance.now -  0.6999998092651367ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0.19999980926513672ms
+FastEquals Result: false
+FastEquals using performance.now -  0.3000001907348633ms
+
+Size - 1000
+
+Lodash Result: false
+Lodash using performance.now -  5.700000286102295ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  1.5999999046325684ms
+FastEquals Result: false
+FastEquals using performance.now -  2.1999998092651367ms
+
+Size - 5000
+
+Lodash Result: false
+Lodash using performance.now -  5.199999809265137ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  3ms
+FastEquals Result: false
+FastEquals using performance.now -  3.6999998092651367ms
+
+
+Around 40 %
+
+    Size - 10
+
+Lodash Result: false
+Lodash using performance.now -  0.40000009536743164ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0.19999980926513672ms
+FastEquals Result: false
+FastEquals using performance.now -  0.10000038146972656ms
+
+Size - 100
+
+Lodash Result: false
+Lodash using performance.now -  1.5ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0.40000009536743164ms
+FastEquals Result: false
+FastEquals using performance.now -  0.5ms
+
+
+Size - 1000
+
+Lodash Result: false
+Lodash using performance.now -  3.9000000953674316ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0.8000001907348633ms
+FastEquals Result: false
+FastEquals using performance.now -  1.3999996185302734ms
+
+
+Size - 5000
+
+Lodash Result: false
+Lodash using performance.now -  8.5ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  2.1999998092651367ms
+FastEquals Result: false
+FastEquals using performance.now -  2.5ms
+
+
+Around 60 %
+
+    Size - 10
+
+Lodash Result: false
+Lodash using performance.now -  0.7999997138977051ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0.19999980926513672ms
+FastEquals Result: false
+FastEquals using performance.now -  0.2999997138977051ms
+
+Size - 100
+
+
+Lodash Result: false
+Lodash using performance.now -  0.8999996185302734ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0.19999980926513672ms
+FastEquals Result: false
+FastEquals using performance.now -  0.3000001907348633ms
+
+Size - 1000
+
+Lodash Result: false
+Lodash using performance.now -  3.0999999046325684ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0.7000002861022949ms
+FastEquals Result: false
+FastEquals using performance.now -  1ms
+
+
+Size - 5000
+
+Lodash Result: false
+Lodash using performance.now -  9.900000095367432ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  1.6999998092651367ms
+FastEquals Result: false
+FastEquals using performance.now -  2.799999713897705ms
+
+
+
+Around 80 %
+
+    Size - 10
+
+Lodash Result: false
+Lodash using performance.now -  0.9000000953674316ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0.09999990463256836ms
+FastEquals Result: false
+FastEquals using performance.now -  0.20000028610229492ms
+
+Size - 100
+
+Lodash Result: false
+Lodash using performance.now -  1ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0.20000028610229492ms
+FastEquals Result: false
+FastEquals using performance.now -  0.2999997138977051ms
+
+Size - 1000
+
+Lodash Result: false
+Lodash using performance.now -  3.9000000953674316ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  0.40000009536743164ms
+FastEquals Result: false
+FastEquals using performance.now -  0.5ms
+
+
+Size - 5000
+
+Lodash Result: false
+Lodash using performance.now -  13.199999809265137ms
+FastDeepEqual Result: false
+FastDeepEqual using performance.now -  1.1000003814697266ms
+FastEquals Result: false
+FastEquals using performance.now -  1.4000000953674316ms
+
+
+
+Size - 10
+
+
+
+
+Size - 100
+
+
+
+Size - 1000
+
+
+Size - 5000
+
+
+
+
